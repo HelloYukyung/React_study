@@ -1,6 +1,7 @@
 import './App.css';
+import WelcomeDialog from './components/3-5.Composition/WelcomeDialog';
 
-import Reducer from './components/3-3.Hooks/Reducer'
+// import Reducer from './components/3-3.Hooks/Reducer'
 // import EffectHook from './components/0. review/EffectHook';
 // import State from './components/3-3.Hooks/State';
 // import ControlledComponent from './components/2-10.From/ControlledComponent';
@@ -17,7 +18,9 @@ import Reducer from './components/3-3.Hooks/Reducer'
 function App() {
   return (
     <div className="App">
-      <Reducer/>
+      <WelcomeDialog/>
+
+      {/* <Reducer/> */}
 
       {/* <State/> */}
 
