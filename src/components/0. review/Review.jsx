@@ -17,6 +17,8 @@ export default function Review() {
         )
     }
 
+ 
+
     return (
         <div>
             <Paint title= "myname" description ="yukyung">

@@ -16,7 +16,7 @@ export default function UncontrolledComponent() {
           <input type="file" ref={fileInputRef} />
         </label>
         <br />
-        <button type="submit">Submit</button>
+        <button type="submit">Submit</button> 
       </form>
     )
 }
